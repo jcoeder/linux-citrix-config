@@ -41,3 +41,8 @@ sudo ln -s /opt/Citrix/ICAClient/npica.so /usr/lib/mozilla/plugins/npica.so
 # 9. Configure Chrome/Chromium
 # To use Citrix Receiver in Chrome and/or Chromium, run:
 xdg-mime default wfica.desktop application/x-ica
+
+# GoDaddy SSL Cert Error 61
+https://ssl-ccp.godaddy.com/repository?origin=CALLISTO
+Download the .pem file for the named cert
+cp file to /opt/Citrix/ICAClient/keystore/cacerts
